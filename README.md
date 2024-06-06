@@ -62,3 +62,12 @@ EnablerMarketは、物件の予約および掲載サービスです。このプ�
 ### 動作確認
 - ブラウザで `http://localhost:5000` にアクセスし、"Hello, EnablerMarket!" が表示されることを確認しました。
 
+
+## テストの実行
+
+以下のコマンドを使用してテストを実行できます。
+
+```bash
+python3 -m unittest discover -s /workspace -p "test_app.py"
+```
+
